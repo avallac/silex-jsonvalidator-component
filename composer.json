@@ -1,0 +1,24 @@
+{
+  "name": "avallac/silex-jsonvalidator-component",
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/avallac/silex-jsonvalidator-component",
+  "description": "A Silex service provider for working with JSON Schema",
+  "keywords": ["silex", "JSON", "JSON Schema", "json-schema"],
+  "require": {
+    "silex/silex": "~2.0",
+    "justinrainbow/json-schema": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.4"
+  },
+  "autoload": {
+    "psr-4": { "AVAllAC\\JsonValidatorComponent\\": "src/" }
+  },
+  "authors": [
+    {
+      "name": "Petr Petrenko",
+      "role": "maintainer"
+    }
+  ]
+}
